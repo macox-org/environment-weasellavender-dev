@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:weasellavender/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:weasellavender/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:weasellavender/prow:hmacToken
+segmentWriteKey: vault:weasellavender:segmentWriteKey
